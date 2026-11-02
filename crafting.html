@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gathering & Crafting · Aethelguard Field Guide</title>
+<meta name="description" content="Wood, ore, smithing, jewelry and enchanting">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;0,700;1,400&family=Alegreya+Sans+SC:wght@400;600&family=IM+Fell+English+SC&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="top-in">
+<a class="mark" href="index.html"><small>The Light of</small><b>AETHELGUARD</b></a>
+<span class="tag">Field Guide</span><span class="sp"></span>
+<label class="picker"><select aria-label="Go to page" onchange="location.href=this.value"><option value="index.html">Home</option><option value="getting-started.html">Getting Started</option><option value="attributes.html">Attributes</option><option value="skills.html">Skills</option><option value="equipment.html">Armor & Equipment</option><option value="magic.html">Magic</option><option value="combat.html">Combat & War Mode</option><option value="crafting.html" selected>Gathering & Crafting</option><option value="world.html">The World</option><option value="reputation.html">Reputation & Endings</option><option value="people.html">People of Aethelguard</option></select></label>
+</div></header>
+<div class="wrap">
+<aside class="rail"><h2>Chapters</h2><ol><li><a href="index.html">Home</a></li><li><a href="getting-started.html">Getting Started</a></li><li><a href="attributes.html">Attributes</a></li><li><a href="skills.html">Skills</a></li><li><a href="equipment.html">Armor & Equipment</a></li><li><a href="magic.html">Magic</a></li><li><a href="combat.html">Combat & War Mode</a></li><li><a href="crafting.html" aria-current="page">Gathering & Crafting</a></li><li><a href="world.html">The World</a></li><li><a href="reputation.html">Reputation & Endings</a></li><li><a href="people.html">People of Aethelguard</a></li></ol><h2>On this page</h2><ol class="toc"><li><a href="#lumber">Lumberjacking</a></li><li><a href="#carpentry">Carpentry</a></li><li><a href="#mining">Mining</a></li><li><a href="#smithing">Smelting and smithing</a></li><li><a href="#jewelcrafting">Jewelcrafting</a></li><li><a href="#enchanting">Enchanting</a></li></ol></aside>
+<main>
+<p class="crumb">Chapter 7 of 10</p>
+<h1>Gathering & Crafting</h1>
+<p class="lede">Wood, ore and aether become bows, armor, jewelry and enchantments.</p>
+
+<h2 id="lumber">Lumberjacking</h2>
+<p>Tap a tree to chop it. Each chop has a 35% chance to cut logs, plus 0.5% per point of Lumberjacking, and you cut more logs per chop as your skill grows. Each tree holds a few logs. A felled tree grows back after about a minute. Logs sell for 2 gold and feed carpentry.</p>
+
+<h2 id="carpentry">Carpentry</h2>
+<div class="split"><div><p>Menu → Craft → Carpentry turns logs into bows and arrows. No skill is needed.</p><div class="tbl"><table><thead><tr><th class="">Make</th><th class="">Needs</th><th class="">Notes</th></tr></thead><tbody><tr><td class="">Arrows ×6</td><td class="">1 log</td><td class="">You can make arrows in bulk.</td></tr><tr><td class="">Short bow</td><td class="">4 logs</td><td class="">Range 6, +3 damage. Sells for 10g.</td></tr><tr><td class="">Long bow</td><td class="">6 logs, 2 rat tails</td><td class="">Range 8, +6 damage. Sells for 20g.</td></tr></tbody></table></div></div><figure class="phone"><div class="scr"><img src="images/craft.webp" alt="The Craft menu" loading="lazy"></div><figcaption>The Craft menu</figcaption></figure></div>
+
+<h2 id="mining">Mining</h2>
+<p>Buy a pickaxe from Mara for 45 gold, then tap an ore vein to mine it. Veins are found in the four mines and in a rubble pile just outside town. Each vein holds a few loads of ore and crumbles when it runs out.</p>
+<p>Your chance depends on your Mining skill, the ore’s difficulty and your Strength. Mining is noisy: monsters within 12 tiles hear you and come looking.</p>
+<div class="tbl"><table><thead><tr><th class="">Ore</th><th class="r">Mining skill to work well</th><th class="r">Ore sells for</th><th class="r">Smelting needs</th><th class="r">Gear strength</th></tr></thead><tbody><tr><td class="">Iron</td><td class="r">0</td><td class="r">8g</td><td class="r">0</td><td class="r">×1.00</td></tr><tr><td class="">Copper</td><td class="r">12</td><td class="r">16g</td><td class="r">8</td><td class="r">×1.12</td></tr><tr><td class="">Silver</td><td class="r">28</td><td class="r">34g</td><td class="r">17</td><td class="r">×1.28</td></tr><tr><td class="">Gold</td><td class="r">46</td><td class="r">70g</td><td class="r">27</td><td class="r">×1.46</td></tr><tr><td class="">Platinum</td><td class="r">66</td><td class="r">140g</td><td class="r">39</td><td class="r">×1.66</td></tr><tr><td class="">Mithril</td><td class="r">84</td><td class="r">300g</td><td class="r">51</td><td class="r">×1.90</td></tr></tbody></table></div>
+<p>Below the listed skill you can still try, but you mostly scratch the rock. Rarer ore is found deeper in the mines.</p>
+
+<h2 id="smithing">Smelting and smithing</h2>
+<div class="split"><div><p>Inside Garrick’s smithy, tap <span class="k">Use the forge</span>. <b>Smelt</b> turns ore into ingots; it needs Blacksmithing of at least 60% of the ore’s smelting level and teaches more for rarer ore. <b>Craft</b> forges gear from ingots.</p>
+<p>Gear made from a better metal is stronger: a mithril piece has 1.9× the damage or armor of an iron one. Each piece has a success chance shown on its button. A failure warps the piece and costs half the ingots. One forging in twenty comes out <b>Exceptional</b>, with up to 40% extra strength depending on your Arms Lore.</p></div><figure class="phone"><div class="scr"><img src="images/forge_craft.webp" alt="Forging gear from ingots" loading="lazy"></div><figcaption>Forging gear from ingots</figcaption></figure></div>
+<div class="tbl"><table><thead><tr><th class="">Piece</th><th class="r">Ingots</th><th class="r">Difficulty</th></tr></thead><tbody><tr><td class="">Dagger</td><td class="r">3</td><td class="r">0</td></tr><tr><td class="">Helm</td><td class="r">4</td><td class="r">5</td></tr><tr><td class="">Boots</td><td class="r">4</td><td class="r">8</td></tr><tr><td class="">Buckler</td><td class="r">5</td><td class="r">8</td></tr><tr><td class="">Brigandine</td><td class="r">6</td><td class="r">10</td></tr><tr><td class="">Longsword</td><td class="r">6</td><td class="r">14</td></tr><tr><td class="">Great Helm</td><td class="r">6</td><td class="r">20</td></tr><tr><td class="">Heater Shield</td><td class="r">8</td><td class="r">26</td></tr><tr><td class="">Battle Axe</td><td class="r">8</td><td class="r">28</td></tr><tr><td class="">Greaves</td><td class="r">8</td><td class="r">30</td></tr><tr><td class="">Chainmail</td><td class="r">12</td><td class="r">36</td></tr><tr><td class="">Katana</td><td class="r">7</td><td class="r">42</td></tr><tr><td class="">Plate Armor</td><td class="r">20</td><td class="r">62</td></tr></tbody></table></div>
+<p>Each button shows your success chance. You have about a 50% chance when your Blacksmithing equals the piece’s difficulty plus 90% of the metal’s smelting level, and better odds above that. For example, a copper longsword (14 + 11) is an even bet at about 25 skill. The finest pieces in the rarest metals stay risky even for a master smith.</p>
+
+<h2 id="jewelcrafting">Jewelcrafting</h2>
+<p>Menu → Craft → Jewelcrafting makes a <b>ring</b> (2 ingots) or a <b>necklace</b> (3 ingots), with an optional gem: ruby, sapphire, emerald or diamond. A failure cracks the setting and costs one ingot.</p>
+<p>New jewelry has no bonuses. Its value is in what it can hold: a better metal and a better gem let it take stronger enchantments and more of them, up to three. Take it to the enchanter’s table.</p>
+
+<h2 id="enchanting">Enchanting</h2>
+<p>Archmage Ilvara’s tent has an enchanter’s table that binds <b>aether</b> into gear. Aether drops from monsters in dungeons, and bosses drop several.</p>
+<ul>
+<li>You can enchant ordinary, non-magic gear and jewelry you have made. Magic items and gifts cannot be enchanted.</li>
+<li>You can only add properties you have seen. Identify magic items with Arms Lore to learn what they hold: Strength, Dexterity, Intelligence, damage percentage, or any skill except Begging, Arms Lore and Enchanting.</li>
+<li>Each item has a maximum power and a number of slots. Ordinary gear has 1 or 2 slots, and jewelry up to 3. Choose one of three power levels; stronger enchantments cost more aether (2 + power) and are more likely to fail.</li>
+<li>A failure costs half the aether. A success renames the item, for example “Silver Ring of Might”.</li>
+</ul>
+
+<nav class="pager" aria-label="Next and previous pages"><a href="combat.html"><small>Previous</small><b>Combat & War Mode</b></a><a class="nx" href="world.html"><small>Next</small><b>The World</b></a></nav>
+<footer>A player’s guide to The Light of Aethelguard. Numbers come from the current version of the game and may change as it grows.</footer>
+</main>
+</div>
+</body>
+</html>

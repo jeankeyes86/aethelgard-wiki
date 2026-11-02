@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Magic · Aethelguard Field Guide</title>
+<meta name="description" content="Learning spells, reagents, familiars and polymorph">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;0,700;1,400&family=Alegreya+Sans+SC:wght@400;600&family=IM+Fell+English+SC&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="top-in">
+<a class="mark" href="index.html"><small>The Light of</small><b>AETHELGUARD</b></a>
+<span class="tag">Field Guide</span><span class="sp"></span>
+<label class="picker"><select aria-label="Go to page" onchange="location.href=this.value"><option value="index.html">Home</option><option value="getting-started.html">Getting Started</option><option value="attributes.html">Attributes</option><option value="skills.html">Skills</option><option value="equipment.html">Armor & Equipment</option><option value="magic.html" selected>Magic</option><option value="combat.html">Combat & War Mode</option><option value="crafting.html">Gathering & Crafting</option><option value="world.html">The World</option><option value="reputation.html">Reputation & Endings</option><option value="people.html">People of Aethelguard</option></select></label>
+</div></header>
+<div class="wrap">
+<aside class="rail"><h2>Chapters</h2><ol><li><a href="index.html">Home</a></li><li><a href="getting-started.html">Getting Started</a></li><li><a href="attributes.html">Attributes</a></li><li><a href="skills.html">Skills</a></li><li><a href="equipment.html">Armor & Equipment</a></li><li><a href="magic.html" aria-current="page">Magic</a></li><li><a href="combat.html">Combat & War Mode</a></li><li><a href="crafting.html">Gathering & Crafting</a></li><li><a href="world.html">The World</a></li><li><a href="reputation.html">Reputation & Endings</a></li><li><a href="people.html">People of Aethelguard</a></li></ol><h2>On this page</h2><ol class="toc"><li><a href="#learning">Learning spells</a></li><li><a href="#spells">The six spells</a></li><li><a href="#casting">Casting</a></li><li><a href="#reagents">Reagents</a></li><li><a href="#mana">Mana and Meditation</a></li><li><a href="#familiars">Familiars</a></li><li><a href="#polymorph">Polymorph</a></li></ol></aside>
+<main>
+<p class="crumb">Chapter 5 of 10</p>
+<h1>Magic</h1>
+<p class="lede">Magic is learned from scrolls, paid for in reagents and mana, and drawn in the air with your own hand.</p>
+
+<h2 id="learning">Learning spells</h2>
+<p>No one starts with magic. Spells come from <b>spell scrolls</b>, which are found in dungeon treasure chests (more often in deeper dungeons) and dropped by bosses. Read a scroll from your Backpack to learn its spell for good. A scroll for a spell you already know crumbles to dust.</p>
+<p>Learning your first spell changes things:</p>
+<ul>
+<li>A mana bar appears under your health.</li>
+<li>Magery and Meditation appear in your skills.</li>
+<li><b>Archmage Ilvara’s tent</b> appears at the western edge of the town square. She sells reagents, trains Magery, Meditation and Enchanting, and keeps the enchanter’s table.</li>
+<li>The Spell Book appears in the menu, and spell buttons appear on screen.</li>
+</ul>
+
+<h2 id="spells">The six spells</h2>
+<div class="split"><div><p>Open the Spell Book to cast any spell you know. You can also choose which spells get a button on the right of the screen.</p>
+<p>Fireball and Lightning need a monster within 8 tiles that you can see. If there is none, you are told “No target in range” and nothing is spent.</p></div><figure class="phone"><div class="scr"><img src="images/book.webp" alt="The Spell Book" loading="lazy"></div><figcaption>The Spell Book</figcaption></figure></div>
+<div class="tbl"><table><thead><tr><th class="">Spell</th><th class="r">Mana</th><th class="">Reagents</th><th class="">Effect</th></tr></thead><tbody><tr><td class=""><b>Fireball</b></td><td class="r">12</td><td class="">Orc ear, Fire essence</td><td class="">Hits the target for (14–24 + Magery ÷ 4) damage and scorches anything beside it for 60% of that.</td></tr><tr><td class=""><b>Lightning</b></td><td class="r">18</td><td class="">Bone, Air essence</td><td class="">(22–34 + Magery ÷ 3) damage. 60% chance to jump to a second foe within 3 tiles for 60%. Can strike birds and bats in the sky.</td></tr><tr><td class=""><b>Heal</b></td><td class="r">15</td><td class="">Rat tail, Water essence</td><td class="">Restores (18–26 + Magery × 0.55) health. Only works when you are hurt.</td></tr><tr><td class=""><b>Recall</b></td><td class="r">25</td><td class="">Orc ear, Earth essence, Air essence</td><td class="">A 2.5 second chant that returns you to town. Any step or any blow interrupts it.</td></tr><tr><td class=""><b>Summon</b></td><td class="r">30</td><td class="">2 Bones, Earth essence, Water essence</td><td class="">Calls a familiar: a wolf, a bat or a raven.</td></tr><tr><td class=""><b>Polymorph</b></td><td class="r">22</td><td class="">Rat tail, Orc ear, Bone, Aether</td><td class="">Turns you into an orc, one of the undead, or a rat.</td></tr></tbody></table></div>
+<p>Fireball and Lightning damage is also multiplied by your Intelligence bonus and any damage bonus from your gear. Your character sheet shows the exact ranges for the spells you know.</p>
+
+<h2 id="casting">Casting</h2>
+<p>When you cast, your hero traces the spell’s glyph in the air with a glowing hand: a flame for Fireball, a jagged bolt for Lightning, a heart for Heal, a spiral for Recall, a paw for Summon and a split figure for Polymorph. When the glyph is complete it flares, and the spell is flung at your target or lifted upward.</p>
+<p>Each cast uses mana and one set of reagents, and teaches Magery. After casting there is a short pause before your next attack or spell.</p>
+<p>Summon and Polymorph first ask you to choose a familiar or a form. The glyph is drawn only after you choose.</p>
+<figure class="shot"><div class="scr"><img src="images/glyphs.webp" alt="The six spell glyphs, mid-trace: Fireball, Lightning, Heal, Recall, Summon and Polymorph" loading="lazy"></div><figcaption>The six spell glyphs, mid-trace: Fireball, Lightning, Heal, Recall, Summon and Polymorph</figcaption></figure>
+
+<h2 id="reagents">Reagents</h2>
+<div class="split"><div><p>Every spell consumes its reagents each time you cast it. You can collect them from monsters or buy them from Ilvara.</p></div><figure class="phone"><div class="scr"><img src="images/reagents.webp" alt="Ilvara’s reagent counter" loading="lazy"></div><figcaption>Ilvara’s reagent counter</figcaption></figure></div>
+<div class="tbl"><table><thead><tr><th class="">Reagent</th><th class="">Where it drops</th><th class="r">Ilvara’s price</th></tr></thead><tbody><tr><td class="">Rat tail</td><td class="">Rats and ratmen</td><td class="r">3g</td></tr><tr><td class="">Orc ear</td><td class="">Orcs</td><td class="r">8g</td></tr><tr><td class="">Bone</td><td class="">Skeletons, the undead and many others</td><td class="r">12g</td></tr><tr><td class="">Fire essence</td><td class="">Fire elementals</td><td class="r">18g</td></tr><tr><td class="">Air essence</td><td class="">Air elementals</td><td class="r">18g</td></tr><tr><td class="">Water essence</td><td class="">Water elementals</td><td class="r">18g</td></tr><tr><td class="">Earth essence</td><td class="">Earth elementals</td><td class="r">22g</td></tr><tr><td class="">Aether</td><td class="">Monsters in dungeons, and bosses</td><td class="r">30g</td></tr></tbody></table></div>
+<p>Elementals live in the <a href="world.html#dungeons">Elemental Sanctum</a>, whose summoner, Veyra, drops a handful of every essence.</p>
+
+<h2 id="mana">Mana and Meditation</h2>
+<p>Your mana is 10 + Intelligence. It comes back on its own, faster with higher Magery and much faster with higher Meditation. The character sheet shows your mana regeneration per second. Mana potions restore 30 or 80 mana at once.</p>
+
+<h2 id="familiars">Familiars</h2>
+<div class="pair"><figure class="phone"><div class="scr"><img src="images/famdlg.webp" alt="Choosing a familiar" loading="lazy"></div><figcaption>Choosing a familiar</figcaption></figure><figure class="phone"><div class="scr"><img src="images/wolf.webp" alt="A spectral wolf at your side" loading="lazy"></div><figcaption>A spectral wolf at your side</figcaption></figure></div>
+<div class="tbl"><table><thead><tr><th class="">Familiar</th><th class="">What it does</th></tr></thead><tbody><tr><td class=""><b>Spectral wolf</b></td><td class="">Fights beside you. It has 30 + Magery × 2.2 health, bites harder and gains armor as your Magery grows. A wolf button lets you switch between guarding your side and charging ahead to hold the enemy’s attention. Tap it to pet it.</td></tr><tr><td class=""><b>Spectral bat</b></td><td class="">Does not fight. Heals you for a share of the damage you deal: 5% at 0 Magery, 25% at 100.</td></tr><tr><td class=""><b>Spectral raven</b></td><td class="">Does not fight. Perches on your shoulder and gives +10 Intelligence.</td></tr></tbody></table></div>
+<p>You can have one familiar at a time. Dismiss it from the Spell Book.</p>
+
+<h2 id="polymorph">Polymorph</h2>
+<div class="split"><div><p>Polymorph lasts 45 seconds plus 0.3 seconds per point of Magery (75 seconds at 100). While in a form, creatures of that kind leave you alone unless you attack them.</p></div><figure class="phone"><div class="scr"><img src="images/polydlg.webp" alt="Choosing a form" loading="lazy"></div><figcaption>Choosing a form</figcaption></figure></div>
+<div class="tbl"><table><thead><tr><th class="">Form</th><th class="">Bonus</th><th class="">Who ignores you</th><th class="">Limits</th></tr></thead><tbody><tr><td class="">Orc</td><td class="">+10 Strength</td><td class="">All orcs</td><td class=""></td></tr><tr><td class="">Undead</td><td class="">+10 Strength and Intelligence</td><td class="">Skeletons, ghouls, wraiths and liches</td><td class=""></td></tr><tr><td class="">Rat</td><td class="">+10 Dexterity and Intelligence</td><td class="">Everything except dragons</td><td class="">Cannot attack or cast; can still pick pockets while sneaking</td></tr></tbody></table></div>
+<nav class="pager" aria-label="Next and previous pages"><a href="equipment.html"><small>Previous</small><b>Armor & Equipment</b></a><a class="nx" href="combat.html"><small>Next</small><b>Combat & War Mode</b></a></nav>
+<footer>A player’s guide to The Light of Aethelguard. Numbers come from the current version of the game and may change as it grows.</footer>
+</main>
+</div>
+</body>
+</html>

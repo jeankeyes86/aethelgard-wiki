@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Skills · Aethelguard Field Guide</title>
+<meta name="description" content="Every skill, how it grows, trainers and titles">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;0,700;1,400&family=Alegreya+Sans+SC:wght@400;600&family=IM+Fell+English+SC&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="top-in">
+<a class="mark" href="index.html"><small>The Light of</small><b>AETHELGUARD</b></a>
+<span class="tag">Field Guide</span><span class="sp"></span>
+<label class="picker"><select aria-label="Go to page" onchange="location.href=this.value"><option value="index.html">Home</option><option value="getting-started.html">Getting Started</option><option value="attributes.html">Attributes</option><option value="skills.html" selected>Skills</option><option value="equipment.html">Armor & Equipment</option><option value="magic.html">Magic</option><option value="combat.html">Combat & War Mode</option><option value="crafting.html">Gathering & Crafting</option><option value="world.html">The World</option><option value="reputation.html">Reputation & Endings</option><option value="people.html">People of Aethelguard</option></select></label>
+</div></header>
+<div class="wrap">
+<aside class="rail"><h2>Chapters</h2><ol><li><a href="index.html">Home</a></li><li><a href="getting-started.html">Getting Started</a></li><li><a href="attributes.html">Attributes</a></li><li><a href="skills.html" aria-current="page">Skills</a></li><li><a href="equipment.html">Armor & Equipment</a></li><li><a href="magic.html">Magic</a></li><li><a href="combat.html">Combat & War Mode</a></li><li><a href="crafting.html">Gathering & Crafting</a></li><li><a href="world.html">The World</a></li><li><a href="reputation.html">Reputation & Endings</a></li><li><a href="people.html">People of Aethelguard</a></li></ol><h2>On this page</h2><ol class="toc"><li><a href="#list">All skills</a></li><li><a href="#gain">How skills grow</a></li><li><a href="#trainers">Trainers</a></li><li><a href="#titles">Skill titles</a></li></ol></aside>
+<main>
+<p class="crumb">Chapter 3 of 10</p>
+<h1>Skills</h1>
+<p class="lede">Skills rise by using them. There are sixteen, and most stay hidden until you first try them.</p>
+
+<h2 id="list">All skills</h2>
+<div class="split"><div><p>Skill values run from 0 to 100 in steps of 0.1. Open Menu → Skills to see yours. A skill you have never used does not appear in the list. Pickpocket appears the first time you pick a pocket, Archery once you hold a bow, and Magery and Meditation once you learn a spell.</p>
+<p>Gear can add up to 25 more points to a skill, for an effective maximum of 125.</p></div><figure class="phone"><div class="scr"><img src="images/skills.webp" alt="The Skills panel" loading="lazy"></div><figcaption>The Skills panel</figcaption></figure></div>
+<div class="tbl"><table><thead><tr><th class="">Skill</th><th class="">What it does</th><th class="">Raised by</th></tr></thead><tbody><tr><td class=""><b>Swordsmanship</b></td><td class="">Melee hit chance (45% at 0, 100% at 100) and +1 damage per 25 points.</td><td class="">Melee attacks</td></tr><tr><td class=""><b>Tactics</b></td><td class="">Multiplies all your weapon damage, up to +50% at 100.</td><td class="">Melee attacks</td></tr><tr><td class=""><b>Parrying</b></td><td class="">Chance to block a blow: skill ÷ 2 percent, plus your shield’s parry bonus.</td><td class="">Being attacked</td></tr><tr><td class=""><b>Archery</b></td><td class="">Bow hit chance and +1 arrow damage per 20 points.</td><td class="">Shooting</td></tr><tr><td class=""><b>Magery</b></td><td class="">Spell damage and healing, familiar strength and polymorph duration. Rises 2.5× faster than other skills.</td><td class="">Casting</td></tr><tr><td class=""><b>Meditation</b></td><td class="">How fast mana comes back.</td><td class="">Mana regenerating</td></tr><tr><td class=""><b>Lumberjacking</b></td><td class="">Chance to cut logs, and logs per chop.</td><td class="">Chopping trees</td></tr><tr><td class=""><b>Mining</b></td><td class="">Chance to break ore, ore per swing, and which ores you can work.</td><td class="">Mining</td></tr><tr><td class=""><b>Blacksmithing</b></td><td class="">Smelting ore, forging gear, and repairing your own gear.</td><td class="">Smelting, forging, repairing</td></tr><tr><td class=""><b>Arms Lore</b></td><td class="">Identifies magic items, improves exceptional forging and self-repair.</td><td class="">Fighting with gear, identifying, forging</td></tr><tr><td class=""><b>Jewelcrafting</b></td><td class="">Making rings and necklaces.</td><td class="">Crafting jewelry</td></tr><tr><td class=""><b>Enchanting</b></td><td class="">Success chance when binding aether into gear.</td><td class="">Enchanting</td></tr><tr><td class=""><b>Sneaking</b></td><td class="">How rarely monsters notice you while sneaking. At 50, sneaking lets you pick pockets.</td><td class="">Sneaking near monsters</td></tr><tr><td class=""><b>Pickpocket</b></td><td class="">Stealing from monsters and people without being caught.</td><td class="">Stealing</td></tr><tr><td class=""><b>Detect Hidden</b></td><td class="">Spotting hidden chests, sneaking thieves and hidden player killers.</td><td class="">Searching</td></tr><tr><td class=""><b>Begging</b></td><td class="">Getting gifts from townsfolk; at 100, each person may give you a unique keepsake jewel.</td><td class="">Asking “Could you spare something?”</td></tr></tbody></table></div>
+
+<h2 id="gain">How skills grow</h2>
+<p>Every time you use a skill, it may rise by 0.1. The chance is high while the skill is low and falls steeply as it climbs. The message log tells you when a skill goes up.</p>
+<svg viewBox="0 0 520 200" role="img" aria-label="Chance of a skill gain per use, falling from about 50 percent at skill 0 to under 1 percent at skill 100" style="max-width:520px;width:100%;margin:8px 0">
+<g transform="translate(46,12)">
+<line x1="0" y1="160" x2="450" y2="160" stroke="var(--line)"/><line x1="0" y1="0" x2="0" y2="160" stroke="var(--line)"/>
+<line x1="0" y1="80" x2="450" y2="80" stroke="var(--line)" stroke-dasharray="3 4"/>
+<text x="-8" y="164" text-anchor="end">0%</text><text x="-8" y="84" text-anchor="end">25%</text><text x="-8" y="4" text-anchor="end">50%</text>
+<text x="0" y="180" text-anchor="middle">0</text><text x="112" y="180" text-anchor="middle">25</text><text x="225" y="180" text-anchor="middle">50</text><text x="337" y="180" text-anchor="middle">75</text><text x="450" y="180" text-anchor="middle">100</text>
+<polyline fill="none" stroke="var(--gold)" stroke-width="2.5" points="0.0,-1.9 22.5,13.7 45.0,28.5 67.5,42.5 90.0,55.7 112.5,68.1 135.0,79.7 157.5,90.5 180.0,100.5 202.5,109.7 225.0,118.1 247.5,125.7 270.0,132.5 292.5,138.5 315.0,143.7 337.5,148.1 360.0,151.7 382.5,154.5 405.0,156.5 427.5,157.7 450.0,158.1"/>
+<circle cx="90" cy="55.7" r="4" fill="var(--gold)"/>
+<text x="98" y="49.7">skill 20: about 33% per use</text>
+</g></svg>
+<div class="tbl"><table><thead><tr><th class="">Skill value</th><th class="r">10</th><th class="r">30</th><th class="r">50</th><th class="r">70</th><th class="r">90</th><th class="r">99</th></tr></thead><tbody><tr><td class="">Chance per use</td><td class="r">41%</td><td class="r">25%</td><td class="r">13%</td><td class="r">5%</td><td class="r">1.1%</td><td class="r">0.6%</td></tr></tbody></table></div>
+<p>Several things speed this up:</p>
+<ul>
+<li><b>Dungeons</b>: every gain chance is 1.5× higher underground.</li>
+<li><b>Intelligence</b>: each point above 10 adds a little; 100 Intelligence makes gains 1.6× as likely.</li>
+<li><b>Skill-specific bonuses</b>: Magery rises 2.5× as fast, Parrying 1.5×, and Lumberjacking and Mining get extra help while they are low.</li>
+<li><b>Harder work</b>: mining richer ore, forging harder pieces and identifying rarer items all teach more.</li>
+</ul>
+<div class="note"><b>Tip</b>Skills slow down a lot after 70. That is normal. Mastering a skill at 100 takes long, steady play, and mastered combat skills unlock the top reputation titles.</div>
+
+<h2 id="trainers">Trainers</h2>
+<div class="split"><div><p>Teachers raise a skill by a full point per lesson, for gold. Each will teach a skill up to 50 and no further; after that you improve by practice only. The price rises with your skill, from about 34 gold at 20 to about 154 gold at 49. Each lesson button shows your current value and the price.</p></div><figure class="phone"><div class="scr"><img src="images/dlg_vane.webp" alt="Training with Captain Vane" loading="lazy"></div><figcaption>Training with Captain Vane</figcaption></figure></div>
+<div class="tbl"><table><thead><tr><th class="">Teacher</th><th class="">Where</th><th class="">Teaches</th></tr></thead><tbody><tr><td class="">Captain Roderic Vane</td><td class="">Training Hall</td><td class="">Swordsmanship, Parrying, Tactics</td></tr><tr><td class="">Sylvie Wren</td><td class="">Training Hall (once you have used a bow)</td><td class="">Archery</td></tr><tr><td class="">Mick Nimblefingers</td><td class="">Training Hall</td><td class="">Sneaking, Pickpocket (once discovered), Detect Hidden</td></tr><tr><td class="">Archmage Ilvara</td><td class="">Mage tent (once you know a spell)</td><td class="">Magery, Meditation, Enchanting</td></tr><tr><td class="">Garrick Ironhand</td><td class="">The forge</td><td class="">Blacksmithing, Mining, Arms Lore</td></tr></tbody></table></div>
+
+<h2 id="titles">Skill titles</h2>
+<p>Your title comes from your best fighting skill: Swordsmanship (Swordsman), Archery (Archer) or Magery (Mage). It shows on the character sheet, and the Hooded Stranger judges you by your best skill too.</p>
+<div class="tbl"><table><thead><tr><th class="">Skill</th><th class="">0</th><th class="">10</th><th class="">20</th><th class="">30</th><th class="">40</th><th class="">50</th><th class="">60</th><th class="">70</th><th class="">80</th><th class="">90</th><th class="">100</th></tr></thead><tbody><tr><td class="">Rank</td><td class="">Novice</td><td class="">Apprentice</td><td class="">Journeyman</td><td class="">Skilled</td><td class="">Adept</td><td class="">Expert</td><td class="">Veteran</td><td class="">Elite</td><td class="">Champion</td><td class="">Master</td><td class="">Grandmaster</td></tr></tbody></table></div>
+<p>For example, a hero with 64 Swordsmanship is a <b>Veteran Swordsman</b>. Reaching Master (90) in a fighting skill matters: that is when the Hooded Stranger starts sending you after world bosses.</p>
+
+<nav class="pager" aria-label="Next and previous pages"><a href="attributes.html"><small>Previous</small><b>Attributes</b></a><a class="nx" href="equipment.html"><small>Next</small><b>Armor & Equipment</b></a></nav>
+<footer>A player’s guide to The Light of Aethelguard. Numbers come from the current version of the game and may change as it grows.</footer>
+</main>
+</div>
+</body>
+</html>

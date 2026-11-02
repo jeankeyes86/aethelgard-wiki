@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Attributes · Aethelguard Field Guide</title>
+<meta name="description" content="Strength, Dexterity, Intelligence and the character sheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;0,700;1,400&family=Alegreya+Sans+SC:wght@400;600&family=IM+Fell+English+SC&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="top-in">
+<a class="mark" href="index.html"><small>The Light of</small><b>AETHELGUARD</b></a>
+<span class="tag">Field Guide</span><span class="sp"></span>
+<label class="picker"><select aria-label="Go to page" onchange="location.href=this.value"><option value="index.html">Home</option><option value="getting-started.html">Getting Started</option><option value="attributes.html" selected>Attributes</option><option value="skills.html">Skills</option><option value="equipment.html">Armor & Equipment</option><option value="magic.html">Magic</option><option value="combat.html">Combat & War Mode</option><option value="crafting.html">Gathering & Crafting</option><option value="world.html">The World</option><option value="reputation.html">Reputation & Endings</option><option value="people.html">People of Aethelguard</option></select></label>
+</div></header>
+<div class="wrap">
+<aside class="rail"><h2>Chapters</h2><ol><li><a href="index.html">Home</a></li><li><a href="getting-started.html">Getting Started</a></li><li><a href="attributes.html" aria-current="page">Attributes</a></li><li><a href="skills.html">Skills</a></li><li><a href="equipment.html">Armor & Equipment</a></li><li><a href="magic.html">Magic</a></li><li><a href="combat.html">Combat & War Mode</a></li><li><a href="crafting.html">Gathering & Crafting</a></li><li><a href="world.html">The World</a></li><li><a href="reputation.html">Reputation & Endings</a></li><li><a href="people.html">People of Aethelguard</a></li></ol><h2>On this page</h2><ol class="toc"><li><a href="#three">The three attributes</a></li><li><a href="#growth">How attributes grow</a></li><li><a href="#sheet">The character sheet</a></li></ol></aside>
+<main>
+<p class="crumb">Chapter 2 of 10</p>
+<h1>Attributes</h1>
+<p class="lede">Three attributes shape your hero. They start where you put them and grow as you use your skills.</p>
+
+<h2 id="three">The three attributes</h2>
+<div class="tbl"><table><thead><tr><th class="">Attribute</th><th class="">What it does</th></tr></thead><tbody><tr><td class=""><b>Strength</b></td><td class="">Your maximum health equals your Strength. Adds +1 melee damage for every 12 points. Heavier armor needs more Strength to wear. Helps you mine.</td></tr><tr><td class=""><b>Dexterity</b></td><td class="">Shortens the time between your attacks and makes you walk faster (up to about 19% faster).</td></tr><tr><td class=""><b>Intelligence</b></td><td class="">Your maximum mana is 10 + Intelligence. Raises spell damage, and makes every skill improve a little faster.</td></tr></tbody></table></div>
+<p>The bonus from Dexterity, Intelligence and skill gain is gentle and steady. Each point above 10 adds a fraction of a percent, so the difference between 10 and 100 is large, but a few points either way barely matter.</p>
+<div class="tbl"><table><thead><tr><th class="">Attribute value</th><th class="r">10</th><th class="r">40</th><th class="r">70</th><th class="r">100</th></tr></thead><tbody><tr><td class="">Health (from Strength)</td><td class="r">10</td><td class="r">40</td><td class="r">70</td><td class="r">100</td></tr><tr><td class="">Extra melee damage</td><td class="r">+0</td><td class="r">+3</td><td class="r">+5</td><td class="r">+8</td></tr><tr><td class="">Time between sword swings (Dexterity)</td><td class="r">1.30s</td><td class="r">1.11s</td><td class="r">0.98s</td><td class="r">0.87s</td></tr><tr><td class="">Walk speed (Dexterity)</td><td class="r">base</td><td class="r">+5%</td><td class="r">+11%</td><td class="r">+17%</td></tr><tr><td class="">Mana (from Intelligence)</td><td class="r">20</td><td class="r">50</td><td class="r">80</td><td class="r">110</td></tr><tr><td class="">Spell damage and skill gain (Int)</td><td class="r">×1.00</td><td class="r">×1.20</td><td class="r">×1.40</td><td class="r">×1.60</td></tr></tbody></table></div>
+
+<h2 id="growth">How attributes grow</h2>
+<p>Each time one of your skills goes up, there is a 12% chance that the attribute tied to it goes up by 1. Attributes stop growing at 100. Using a skill therefore trains its attribute too.</p>
+<div class="tbl"><table><thead><tr><th class="">Attribute</th><th class="">Grows from</th></tr></thead><tbody><tr><td class="">Strength</td><td class="">Swordsmanship, Parrying, Lumberjacking, Mining, Blacksmithing</td></tr><tr><td class="">Dexterity</td><td class="">Archery, Sneaking, Pickpocket, Jewelcrafting</td></tr><tr><td class="">Intelligence</td><td class="">Magery, Meditation, Tactics, Arms Lore, Enchanting, Begging</td></tr></tbody></table></div>
+<h3>Temporary and gear boosts</h3>
+<p>Your shown attribute can be higher than your base value:</p>
+<ul>
+<li><b>Gear</b>: magic items and enchanted jewelry add attribute points. A worn-out item gives less (see <a href="equipment.html#durability">durability</a>).</li>
+<li><b>Blessing</b>: Brother Aldric or Sister Elara bless you for a 50 gold donation. It gives +10 to all three attributes for 10 minutes and earns 8 reputation.</li>
+<li><b>Polymorph</b>: orc form gives +10 Strength, undead form +10 Strength and Intelligence, and rat form +10 Dexterity and Intelligence.</li>
+<li><b>Raven familiar</b>: +10 Intelligence while it rides on your shoulder.</li>
+</ul>
+
+<h2 id="sheet">The character sheet</h2>
+<div class="split"><div><p>Tap your name at the top left to open the character sheet. It works out the numbers that matter in a fight:</p>
+<ul>
+<li><b>Attributes</b>, each with a breakdown of where the points come from (base, gear, blessing, form, raven).</li>
+<li><b>Health and mana.</b></li>
+<li><b>Combat</b>: your weapon and its condition, melee or arrow damage range, hit chance, attack interval, any fire, cold or lightning damage from gear, and the damage range of your known spells.</li>
+<li><b>Defense</b>: armor (how much damage each blow loses), parry chance, movement bonus and mana regeneration.</li>
+<li><b>Buffs and gear effects</b>: blessing and polymorph timers, your familiar, whether you are sneaking or wanted, and every item’s bonuses.</li>
+</ul>
+<p>The sheet is the best place to compare gear. Equip a new piece, open the sheet, and look at what changed.</p></div><figure class="phone"><div class="scr"><img src="images/sheet.webp" alt="The character sheet" loading="lazy"></div><figcaption>The character sheet</figcaption></figure></div>
+
+<nav class="pager" aria-label="Next and previous pages"><a href="getting-started.html"><small>Previous</small><b>Getting Started</b></a><a class="nx" href="skills.html"><small>Next</small><b>Skills</b></a></nav>
+<footer>A player’s guide to The Light of Aethelguard. Numbers come from the current version of the game and may change as it grows.</footer>
+</main>
+</div>
+</body>
+</html>
