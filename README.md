@@ -7,7 +7,7 @@ people of the town.
 ## Publishing on GitHub Pages
 
 1. Create a repository (for example `aethelguard-wiki`) and upload everything in this folder,
-   keeping the `images` folder next to the HTML files.
+   with the images sitting next to the HTML files (no folders needed).
 2. In the repository, open **Settings → Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**, pick `main` and the
    `/ (root)` folder, then **Save**.
