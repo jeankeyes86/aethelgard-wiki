@@ -1,9 +1,8 @@
 # The Light of Aethelgard: Field Guide
 
 A player's wiki for The Light of Aethelgard: how to play, character creation, attributes,
-skills, equipment, magic, combat and war mode, crafting, food, fishing and camping, the world,
-reputation, and the
-people of the town.
+skills, equipment, magic, combat and war mode, crafting (including tailoring and alchemy),
+food, fishing, hunting and camping, the world and its regions, reputation, and the people of the town.
 
 ## Publishing on GitHub Pages
 

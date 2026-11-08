@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Combat & War Mode · Aethelgard Field Guide</title>
-<meta name="description" content="Fighting, archery, war mode, sneaking, death and outlaws">
+<meta name="description" content="Fighting, archery, burning and stuns, enemy tactics, assassins, war mode, sneaking, death and outlaws">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;0,700;1,400&family=Alegreya+Sans+SC:wght@400;600&family=IM+Fell+English+SC&display=swap">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -15,7 +15,7 @@
 <label class="picker"><select aria-label="Go to page" onchange="location.href=this.value"><option value="index.html">Home</option><option value="getting-started.html">Getting Started</option><option value="attributes.html">Attributes</option><option value="skills.html">Skills</option><option value="equipment.html">Armor & Equipment</option><option value="magic.html">Magic</option><option value="combat.html" selected>Combat & War Mode</option><option value="crafting.html">Gathering & Crafting</option><option value="survival.html">Food, Fishing & Camping</option><option value="world.html">The World</option><option value="reputation.html">Reputation & Endings</option><option value="people.html">People of Aethelgard</option></select></label>
 </div></header>
 <div class="wrap">
-<aside class="rail"><h2>Chapters</h2><ol><li><a href="index.html">Home</a></li><li><a href="getting-started.html">Getting Started</a></li><li><a href="attributes.html">Attributes</a></li><li><a href="skills.html">Skills</a></li><li><a href="equipment.html">Armor & Equipment</a></li><li><a href="magic.html">Magic</a></li><li><a href="combat.html" aria-current="page">Combat & War Mode</a></li><li><a href="crafting.html">Gathering & Crafting</a></li><li><a href="survival.html">Food, Fishing & Camping</a></li><li><a href="world.html">The World</a></li><li><a href="reputation.html">Reputation & Endings</a></li><li><a href="people.html">People of Aethelgard</a></li></ol><h2>On this page</h2><ol class="toc"><li><a href="#melee">Melee</a></li><li><a href="#archery">Archery</a></li><li><a href="#defense">Taking hits</a></li><li><a href="#war-mode">War mode</a></li><li><a href="#sneaking">Sneaking, sneak attacks and pickpocketing</a></li><li><a href="#death">Death</a></li><li><a href="#outlaws">Player killers and thieves</a></li><li><a href="#bosses">Bosses and world bosses</a></li></ol></aside>
+<aside class="rail"><h2>Chapters</h2><ol><li><a href="index.html">Home</a></li><li><a href="getting-started.html">Getting Started</a></li><li><a href="attributes.html">Attributes</a></li><li><a href="skills.html">Skills</a></li><li><a href="equipment.html">Armor & Equipment</a></li><li><a href="magic.html">Magic</a></li><li><a href="combat.html" aria-current="page">Combat & War Mode</a></li><li><a href="crafting.html">Gathering & Crafting</a></li><li><a href="survival.html">Food, Fishing & Camping</a></li><li><a href="world.html">The World</a></li><li><a href="reputation.html">Reputation & Endings</a></li><li><a href="people.html">People of Aethelgard</a></li></ol><h2>On this page</h2><ol class="toc"><li><a href="#melee">Melee</a></li><li><a href="#archery">Archery</a></li><li><a href="#defense">Taking hits</a></li><li><a href="#status">Burning, poison and stuns</a></li><li><a href="#tactics">Enemy tactics</a></li><li><a href="#assassins">Assassins and support casters</a></li><li><a href="#war-mode">War mode</a></li><li><a href="#sneaking">Sneaking, sneak attacks and pickpocketing</a></li><li><a href="#death">Death</a></li><li><a href="#outlaws">Player killers and thieves</a></li><li><a href="#bosses">Bosses and world bosses</a></li></ol></aside>
 <main>
 <p class="crumb">Chapter 6 of 11</p>
 <h1>Combat & War Mode</h1>
@@ -41,6 +41,26 @@
 <li><b>Healing</b>: potions, the Heal spell, a bat familiar, or a free visit to the temple.</li>
 </ul>
 <p>Monsters only react once they have actually seen you, which needs a clear line of sight. Some bosses have special attacks with a warning on screen, such as Zhar’ak’s venom spit or Grumthar’s ground-shaking slam. Step away when you see one coming.</p>
+<p>The town guards fight for you near the walls. A monster a guard strikes turns on that guard, or runs if you are well away. Guards are hardy and never fall.</p>
+<p>Tapping a body in the middle of a fight loots it if you can reach it from where you stand; otherwise you loot it as soon as the fight is over.</p>
+
+<h2 id="status">Burning, poison and stuns</h2>
+<div class="tbl"><table><thead><tr><th class="">Effect</th><th class="">Comes from</th><th class="">What it does</th></tr></thead><tbody><tr><td class=""><b>Burning</b></td><td class="">Your Fireball, fire-throwing companions, and monsters’ fire spells</td><td class="">Deals 12% of the hit again every second for 4 seconds. Flames lick at whatever is burning.</td></tr><tr><td class=""><b>Poison</b></td><td class="">The Venomfang Axe</td><td class="">Deals 15% of each hit again every second for 5 seconds. Sickly bubbles rise from the poisoned.</td></tr><tr><td class=""><b>Stun</b></td><td class="">Your Lightning (often), monsters’ lightning, and the Smash, Charge and stunning shots below</td><td class="">The stunned cannot move, attack or cast for a moment, and stars circle their head. A harder lightning strike stuns longer. Bosses shake off stuns in under half the time.</td></tr></tbody></table></div>
+<p>A stun interrupts Recall. Magic Resistance cuts burning damage like any other fire.</p>
+
+<h2 id="tactics">Enemy tactics</h2>
+<p>Monsters no longer just walk up and swing. Every special attack is <b>marked on the ground</b> a moment before it lands, with a label over the attacker, so you can step out of it.</p>
+<div class="tbl"><table><thead><tr><th class="">Tactic</th><th class="">Who uses it</th><th class="">What happens</th></tr></thead><tbody><tr><td class=""><b>Smash!</b></td><td class="">Heavy hitters: orcs, nightblood orcs, ogres, gargoyles, demons and treants</td><td class="">Raises its weapon over a ring around itself. If you are still in the ring, a 1.4× blow that leaves you reeling for over a second.</td></tr><tr><td class=""><b>Charge!</b></td><td class="">Quick beasts: ratmen, lizardmen, nightmares, devils, ghouls, harpies and bloodmoon rats</td><td class="">Paws the ground, then rushes down a marked lane at you from 3 to 6 tiles away. If it reaches you, a 1.2× slam and a longer stun.</td></tr><tr><td class=""><b>Aims…</b></td><td class="">Archers with no fighters to hide behind</td><td class="">Marks the tile you stand on, then looses a stunning shot.</td></tr><tr><td class=""><b>Holding the line</b></td><td class="">Fighters with archers or casters behind them</td><td class="">They form a wall between you and the back rank, so you have to break through to reach the shooters.</td></tr></tbody></table></div>
+
+<h2 id="assassins">Assassins and support casters</h2>
+<p>Orcs, skeletons, ratmen and lizardmen bring two newer kinds of foe. A few walk among orcs and skeletons in the wilds, and every dungeon of those kinds has them.</p>
+<div class="tbl"><table><thead><tr><th class="">Family</th><th class="">Assassin</th><th class="">Support caster</th></tr></thead><tbody><tr><td class="">Orcs</td><td class="">Orc cutthroat (30 health)</td><td class="">Orc shaman (34): heals, war chant, fire bolts</td></tr><tr><td class="">Undead</td><td class="">Bone stalker (44)</td><td class="">Bone priest (46): heals, dark rite, lightning</td></tr><tr><td class="">Ratmen</td><td class="">Ratman skulker (26)</td><td class="">Ratman plague-healer (28): fast heals, flees when alone</td></tr><tr><td class="">Lizardmen</td><td class="">Lizardman stalker (40)</td><td class="">Lizardman shaman (42): heals, war chant, lightning</td></tr></tbody></table></div>
+<ul>
+<li><b>Assassins</b> creep up hidden and open with a double-damage strike from the shadows. When hurt or spotted, they melt back into the shadows and try again. Detect Hidden gives you a chance to spot one creeping toward you, better the closer it is, and raises the skill. Hitting a hidden assassin anyway drags it into the open.</li>
+<li><b>Support casters</b> stay four to six steps away, behind their fighters. They heal whoever is most hurt, and shamans rouse nearby fighters to hit 30% harder for a while (a red glow at their feet). Shamans also hurl bolts when they have a clear shot.</li>
+<li>A dying shaman <b>calls to the darkness</b> and implodes after a short warning, hurting everything in a marked ring, you included. Step out of the ring.</li>
+</ul>
+<p>Kill the healers first, and keep moving when the ground lights up.</p>
 
 <h2 id="war-mode">War mode</h2>
 <div class="pair"><figure class="phone"><div class="scr"><img src="calm.webp" alt="War mode off (CALM)" loading="lazy"></div><figcaption>War mode off (CALM)</figcaption></figure><figure class="phone"><div class="scr"><img src="warmode.webp" alt="War mode on (WAR)" loading="lazy"></div><figcaption>War mode on (WAR)</figcaption></figure></div>
@@ -60,7 +80,7 @@
 </ul>
 
 <h2 id="death">Death</h2>
-<p>When you die, whatever killed you takes 10% of your gold. Kill it to get the gold back. You wake at the town’s shrine with 30 health, wearing a grey ghost robe, and your gear is in your backpack. If the guards kill you while you are wanted, they take 10% of your gold as a bounty.</p>
+<p>When you die, whatever killed you takes 10% of your gold. Dying in a dungeon or mine holds it as it is for at least ten minutes, so you can go back for what you lost. Kill it to get the gold back. You wake at the town’s shrine with 30 health, wearing a grey ghost robe, and your gear is in your backpack. If the guards kill you while you are wanted, they take 10% of your gold as a bounty.</p>
 <div class="note"><b>Warning</b>If a player killer kills you, they take everything you carry and wear. They stay in the world for about five minutes. Gear up from your storage chest and hunt them down to take it all back.</div>
 
 <h2 id="outlaws">Player killers and thieves</h2>
