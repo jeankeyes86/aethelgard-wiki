@@ -1,6 +1,6 @@
 # The Light of Aethelgard: Field Guide
 
-A player's handbook for the game, written as a small website. It needs no build step and no internet fonts.
+A player's handbook for the game, written as a small website. It needs no build step. Its fonts load from Google Fonts when online, with built-in fallbacks.
 
 ## Put it online from an Android phone (GitHub Pages)
 
