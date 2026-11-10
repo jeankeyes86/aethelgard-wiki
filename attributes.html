@@ -1,58 +1,17 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Attributes · Aethelgard Field Guide</title>
-<meta name="description" content="Strength, Dexterity, Intelligence and the character sheet">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;0,700;1,400&family=Alegreya+Sans+SC:wght@400;600&family=IM+Fell+English+SC&display=swap">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header class="top"><div class="top-in">
-<a class="mark" href="index.html"><small>The Light of</small><b>AETHELGARD</b></a>
-<span class="tag">Field Guide</span><span class="sp"></span>
-<label class="picker"><select aria-label="Go to page" onchange="location.href=this.value"><option value="index.html">Home</option><option value="getting-started.html">Getting Started</option><option value="attributes.html" selected>Attributes</option><option value="skills.html">Skills</option><option value="equipment.html">Armor & Equipment</option><option value="magic.html">Magic</option><option value="combat.html">Combat & War Mode</option><option value="crafting.html">Gathering & Crafting</option><option value="survival.html">Food, Fishing & Camping</option><option value="world.html">The World</option><option value="reputation.html">Reputation & Endings</option><option value="people.html">People of Aethelgard</option></select></label>
-</div></header>
-<div class="wrap">
-<aside class="rail"><h2>Chapters</h2><ol><li><a href="index.html">Home</a></li><li><a href="getting-started.html">Getting Started</a></li><li><a href="attributes.html" aria-current="page">Attributes</a></li><li><a href="skills.html">Skills</a></li><li><a href="equipment.html">Armor & Equipment</a></li><li><a href="magic.html">Magic</a></li><li><a href="combat.html">Combat & War Mode</a></li><li><a href="crafting.html">Gathering & Crafting</a></li><li><a href="survival.html">Food, Fishing & Camping</a></li><li><a href="world.html">The World</a></li><li><a href="reputation.html">Reputation & Endings</a></li><li><a href="people.html">People of Aethelgard</a></li></ol><h2>On this page</h2><ol class="toc"><li><a href="#three">The three attributes</a></li><li><a href="#growth">How attributes grow</a></li><li><a href="#sheet">The character sheet</a></li></ol></aside>
-<main>
-<p class="crumb">Chapter 2 of 11</p>
-<h1>Attributes</h1>
-<p class="lede">Three attributes shape your hero. They start where you put them and grow as you use your skills.</p>
-
-<h2 id="three">The three attributes</h2>
-<div class="tbl"><table><thead><tr><th class="">Attribute</th><th class="">What it does</th></tr></thead><tbody><tr><td class=""><b>Strength</b></td><td class="">Your maximum health equals your Strength. Adds +1 melee damage for every 12 points. Heavier armor needs more Strength to wear. Helps you mine.</td></tr><tr><td class=""><b>Dexterity</b></td><td class="">Shortens the time between your attacks and makes you walk faster (up to about 19% faster).</td></tr><tr><td class=""><b>Intelligence</b></td><td class="">Your maximum mana is 10 + Intelligence. Raises spell damage, and makes every skill improve a little faster.</td></tr></tbody></table></div>
-<p>The bonus from Dexterity, Intelligence and skill gain is gentle and steady. Each point above 10 adds a fraction of a percent, so the difference between 10 and 100 is large, but a few points either way barely matter.</p>
-<div class="tbl"><table><thead><tr><th class="">Attribute value</th><th class="r">10</th><th class="r">40</th><th class="r">70</th><th class="r">100</th></tr></thead><tbody><tr><td class="">Health (from Strength)</td><td class="r">10</td><td class="r">40</td><td class="r">70</td><td class="r">100</td></tr><tr><td class="">Extra melee damage</td><td class="r">+0</td><td class="r">+3</td><td class="r">+5</td><td class="r">+8</td></tr><tr><td class="">Time between sword swings (Dexterity)</td><td class="r">1.30s</td><td class="r">1.11s</td><td class="r">0.98s</td><td class="r">0.87s</td></tr><tr><td class="">Walk speed (Dexterity)</td><td class="r">base</td><td class="r">+5%</td><td class="r">+11%</td><td class="r">+17%</td></tr><tr><td class="">Mana (from Intelligence)</td><td class="r">20</td><td class="r">50</td><td class="r">80</td><td class="r">110</td></tr><tr><td class="">Spell damage and skill gain (Int)</td><td class="r">×1.00</td><td class="r">×1.20</td><td class="r">×1.40</td><td class="r">×1.60</td></tr></tbody></table></div>
-
-<h2 id="growth">How attributes grow</h2>
-<p>Each time one of your skills goes up, there is a 12% chance that an attribute tied to it goes up by 1. Every skill except Begging is tied to one or two attributes; when there are two, one is picked at random. Attributes stop growing at 100. Using a skill therefore trains its attributes too.</p>
-<div class="tbl"><table><thead><tr><th class="">Attribute</th><th class="">Grows from</th></tr></thead><tbody><tr><td class="">Strength</td><td class="">Swordsmanship, Parrying, Archery, Lumberjacking, Mining, Blacksmithing, Fishing, Camping</td></tr><tr><td class="">Dexterity</td><td class="">Swordsmanship, Parrying, Archery, Sneaking, Pickpocket, Jewelcrafting, Fishing, Cooking, Camping, Tailoring, Alchemy</td></tr><tr><td class="">Intelligence</td><td class="">Tactics, Magery, Meditation, Arms Lore, Enchanting, Jewelcrafting, Detect Hidden, Magic Resistance, Cooking, Alchemy</td></tr></tbody></table></div>
-<h3>Temporary and gear boosts</h3>
-<p>Your shown attribute can be higher than your base value:</p>
-<ul>
-<li><b>Gear</b>: magic items and enchanted jewelry add attribute points. A worn-out item gives less (see <a href="equipment.html#durability">durability</a>).</li>
-<li><b>Blessing</b>: Brother Aldric or Sister Elara bless you for a 50 gold donation. It gives +10 to all three attributes for 10 minutes and earns 8 reputation.</li>
-<li><b>Polymorph</b>: orc form gives +10 Strength, undead form +10 Strength and Intelligence, and rat form +10 Dexterity and Intelligence.</li>
-<li><b>Raven familiar</b>: +10 Intelligence while it rides on your shoulder.</li>
-<li><b>Meals and draughts</b>: some dishes add Strength, Dexterity or Intelligence for a while, a Vigor potion adds 10 Strength and a Haste potion 12 Dexterity (see <a href="crafting.html#alchemy">Alchemy</a>).</li>
-</ul>
-
-<h2 id="sheet">The character sheet</h2>
-<div class="split"><div><p>Tap your name at the top left to open the character sheet. It works out the numbers that matter in a fight:</p>
-<ul>
-<li><b>Attributes</b>, each with a breakdown of where the points come from (base, gear, blessing, form, raven).</li>
-<li><b>Health and mana.</b></li>
-<li><b>Combat</b>: your weapon and its condition, melee or arrow damage range, hit chance, attack interval, any fire, cold or lightning damage from gear, and the damage range of your known spells.</li>
-<li><b>Defense</b>: armor (how much damage each blow loses), parry chance, movement bonus and mana regeneration.</li>
-<li><b>Buffs and gear effects</b>: blessing and polymorph timers, your familiar, whether you are sneaking or wanted, and every item’s bonuses.</li>
-</ul>
-<p>The sheet is the best place to compare gear. Equip a new piece, open the sheet, and look at what changed.</p></div><figure class="phone"><div class="scr"><img src="sheet.webp" alt="The character sheet" loading="lazy"></div><figcaption>The character sheet</figcaption></figure></div>
-
-<nav class="pager" aria-label="Next and previous pages"><a href="getting-started.html"><small>Previous</small><b>Getting Started</b></a><a class="nx" href="skills.html"><small>Next</small><b>Skills</b></a></nav>
-<footer>A player’s guide to The Light of Aethelgard. Numbers come from the current version of the game and may change as it grows.</footer>
-</main>
-</div>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Attributes · The Light of Aethelgard Field Guide</title><meta name="description" content="Three attributes shape your hero. They start where you put them and grow as you use your skills."><link rel="stylesheet" href="style.css"></head><body>
+<header><a class="brand" href="index.html">The Light of Aethelgard<span>Field Guide</span></a></header>
+<nav class="chap"><a href="index.html">Home</a><a href="getting-started.html">Getting Started</a><a href="attributes.html" class=on>Attributes</a><a href="skills.html">Skills</a><a href="equipment.html">Armor & Equipment</a><a href="magic.html">Magic</a><a href="combat.html">Combat & War Mode</a><a href="crafting.html">Gathering & Crafting</a><a href="survival.html">Food, Fishing & Camping</a><a href="animals.html">Animals & Taming</a><a href="world.html">The World</a><a href="reputation.html">Reputation</a><a href="people.html">People of Aethelgard</a></nav><main><h1>Attributes</h1><p class="lead">Three attributes shape your hero. They start where you put them and grow as you use your skills.</p>
+<h2>The three attributes</h2>
+<div class="tbl"><table><thead><tr><th>Attribute</th><th>What it does</th></tr></thead><tbody><tr><td>Strength</td><td>Your maximum health equals your Strength. Adds +1 melee damage for every 12 points. Heavier armor needs more Strength. Helps you mine.</td></tr><tr><td>Dexterity</td><td>Shortens the time between attacks and makes you walk faster, by up to about 19%.</td></tr><tr><td>Intelligence</td><td>Your maximum mana is 10 + Intelligence. Raises spell damage and makes every skill improve a little faster.</td></tr></tbody></table></div>
+<p>Dexterity, Intelligence and skill gain work gently and steadily, so a few points either way barely matter, but the gap between 10 and 100 is large.</p>
+<div class="tbl"><table><thead><tr><th>Attribute value</th><th>10</th><th>40</th><th>70</th><th>100</th></tr></thead><tbody><tr><td>Health (Strength)</td><td>10</td><td>40</td><td>70</td><td>100</td></tr><tr><td>Extra melee damage (Strength)</td><td>+0</td><td>+3</td><td>+5</td><td>+8</td></tr><tr><td>Time between sword swings (Dexterity)</td><td>1.30s</td><td>1.11s</td><td>0.98s</td><td>0.87s</td></tr><tr><td>Walk speed (Dexterity)</td><td>base</td><td>+5%</td><td>+11%</td><td>+17%</td></tr><tr><td>Mana (Intelligence)</td><td>20</td><td>50</td><td>80</td><td>110</td></tr><tr><td>Spell damage and skill gain (Intelligence)</td><td>×1.00</td><td>×1.20</td><td>×1.40</td><td>×1.60</td></tr></tbody></table></div>
+<h2>How attributes grow</h2>
+<p>Each time one of your skills goes up, there is a 12% chance that an attribute tied to it goes up by 1. Every skill except Begging is tied to one or two attributes, and when there are two, one is picked at random. Attributes stop growing at 100. Using a skill therefore trains its attributes too.</p>
+<div class="tbl"><table><thead><tr><th>Attribute</th><th>Grows from</th></tr></thead><tbody><tr><td>Strength</td><td>Swordsmanship, Parrying, Archery, Lumberjacking, Mining, Blacksmithing, Fishing, Camping, Animal Taming</td></tr><tr><td>Dexterity</td><td>Swordsmanship, Parrying, Archery, Sneaking, Pickpocket, Jewelcrafting, Fishing, Cooking, Camping, Tailoring, Alchemy, Veterinary, Healing</td></tr><tr><td>Intelligence</td><td>Tactics, Magery, Meditation, Arms Lore, Enchanting, Jewelcrafting, Detect Hidden, Magic Resistance, Cooking, Alchemy, Animal Taming, Veterinary, Healing</td></tr></tbody></table></div>
+<h2>Temporary and gear boosts</h2>
+<p>The number shown for an attribute can be higher than your base value.</p>
+<ul><li><b>Gear:</b> magic items and enchanted jewelry add points. A worn-out item gives less.</li><li><b>Blessing:</b> Brother Aldric or Sister Elara bless you for 50 gold. You get +10 to all three attributes for 10 minutes and earn 8 reputation.</li><li><b>Polymorph:</b> orc form gives +10 Strength, undead form +10 Strength and Intelligence, and rat form +10 Dexterity and Intelligence.</li><li><b>Raven familiar:</b> +10 Intelligence while it rides on your shoulder.</li><li><b>Meals and draughts:</b> some dishes add Strength, Dexterity or Intelligence for a while. A Vigor potion adds 10 Strength and a Haste potion 12 Dexterity.</li></ul>
+<h2>The character sheet</h2>
+<p>Tap your name to open the character sheet. It works out the numbers that matter in a fight: your attributes with a breakdown of where each point comes from, health and mana, weapon and damage range, hit chance, attack speed, any fire, cold or lightning damage from gear, armor, parry chance, mana regeneration, active blessings and polymorph timers, and every item's bonuses. It is the best place to compare gear: equip a new piece, open the sheet and see what changed.</p>
+<p>Next: <a href="skills.html">Skills</a>.</p>
+<div class="pn"><a class="prev" href="getting-started.html">← Getting Started</a><a class="next" href="skills.html">Skills →</a></div></main><footer>The Light of Aethelgard Field Guide</footer></body></html>
